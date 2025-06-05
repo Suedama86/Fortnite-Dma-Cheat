@@ -1,3 +1,4 @@
 # Fortnite-Dma-Cheat
-This is a free Fortnite dma cheat source, it is not mine and it was an old ( 1 month old ) dma cheat source.
-Some files you need to include yourself from the memprocfs library, i will not help you set this all up. I might later on personally add more features and try to optimize it and add more features more but no promises
+Its a semi unfinished Fortnite DMA cheat project. I started developing it a while ago but decided to pause progress due to time constraints. Some files from the memprocfs library are required (and your cr3 fix ) you’ll need to include those yourself, as I’m not actively supporting setup at the moment.
+
+That said, I haven’t completely abandoned it. When I find more free time, I plan to return to it, improve performance, and possibly add alot more features <3
