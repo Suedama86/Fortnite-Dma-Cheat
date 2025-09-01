@@ -1,0 +1,74 @@
+{
+  "backend_config": {
+    "prefer_memflow": true,
+    "auto_detect_backends": true,
+    "fallback_enabled": true
+  },
+  "memflow": {
+    "connector": "qemu-procfs",
+    "vm_name": "Windows-Gaming-VM",
+    "timeout_ms": 5000,
+    "enable_caching": true,
+    "cache_size_mb": 64,
+    "max_retry_attempts": 3,
+    "retry_delay_ms": 100
+  },
+  "vmmdll": {
+    "device_args": "",
+    "enable_printf": false,
+    "verbosity_level": 0,
+    "disable_refresh": false,
+    "device_type": "auto"
+  },
+  "performance": {
+    "batch_size": 256,
+    "scatter_operations": true,
+    "enable_async": true,
+    "thread_pool_size": 4,
+    "memory_pool_size_mb": 32
+  },
+  "target_process": {
+    "process_name": "FortniteClient-Win64-Shipping.exe",
+    "auto_attach": true,
+    "scan_interval_ms": 1000,
+    "verify_process": true
+  },
+  "memory_scanning": {
+    "chunk_size": 4096,
+    "max_scan_range": "0x7FFFFFFFFFFF",
+    "enable_pattern_cache": true,
+    "cache_duration_seconds": 300
+  },
+  "logging": {
+    "level": "info",
+    "enable_file_logging": true,
+    "log_file_path": "dma_log.txt",
+    "max_log_size_mb": 10,
+    "enable_console_logging": true
+  },
+  "security": {
+    "enable_stealth_mode": true,
+    "randomize_delays": true,
+    "min_delay_ms": 1,
+    "max_delay_ms": 10,
+    "obfuscate_patterns": true
+  },
+  "github_copilot": {
+    "enable_enhanced_features": true,
+    "auto_optimization": true,
+    "suggestion_level": "aggressive",
+    "context_awareness": true
+  },
+  "proxmox_integration": {
+    "enable_vm_detection": true,
+    "vm_management_enabled": false,
+    "snapshot_support": true,
+    "live_migration_safe": true
+  },
+  "debugging": {
+    "enable_debug_output": false,
+    "memory_access_logging": false,
+    "performance_profiling": false,
+    "dump_signatures": false
+  }
+}
